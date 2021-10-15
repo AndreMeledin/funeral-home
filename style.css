@@ -919,4 +919,9 @@ img {
   .product-all__h2 {
     font-size: 30px;
   }
+
+  .product-all__card {
+    width: 300px;
+    height: 200px;
+  }
 }
