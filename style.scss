@@ -449,7 +449,7 @@
   }
  
   &__text a{
-    color: rgb(111, 162, 238);
+    color: rgb(240, 92, 92);
   }
 
   &__body iframe{
@@ -824,5 +824,44 @@
   }
   .info__p{
     justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:480px){
+  .header__border{
+    width: 280px;
+    height: 280px;
+  }
+  .top-line__info{
+    display: none;
+  }
+  .nav__logo img{
+    width: 90px;
+  }
+  .product__h2{
+    font-size: 30px;
+  }
+  .call__h2{
+    font-size: 30px;
+  }
+  .services__h2{
+    font-size: 30px;
+  }
+  .map__h2{
+    font-size: 30px;
+  }
+  .info__h2{
+    font-size: 30px;
+  }
+  .product-all__card-crosses{
+    width: 400px;
+    height: 300px;
+  }
+  .product-all__card-other{
+    width: 400px;
+    height: 300px;
+  }
+  .product-all__h2{
+    font-size: 30px;
   }
 }
